@@ -1,0 +1,18 @@
+:: create a .git folder inside the project
+git init 
+
+:: check the status of all the files
+:: if red there are changes, if green the file didnt' get any change.
+:: 'track the file'
+git status
+
+:: add the file to track 
+git add 'NAME_FILE*
+
+:: the file are not in our repository but in a Staging Area
+:: To store our staged changes we run the commit command with a message describing what we've changed
+git commit -m "add a fast comment"
+
+#need to add the remote
+git remote add origin https://github.com/gand988/portfolio.git
+
